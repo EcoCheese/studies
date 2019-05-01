@@ -1,0 +1,3 @@
+Natural number n is given, whole-numbered quadratic matrix n. 
+Get b1,...,bn де bi - are the lowest values of elements, 
+that are located on the beggining on the line 'i' till the element pf the main diagonal. 
