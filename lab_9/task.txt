@@ -1,0 +1,2 @@
+Array, that contains surnames of students and their exam mark, is given. 
+Create a programm, that finds and prints surnames of students, who got the mark. 
