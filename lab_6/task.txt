@@ -1,0 +1,1 @@
+Number 'n' is given, count the sum of it's digits. 
