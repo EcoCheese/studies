@@ -1,0 +1,2 @@
+Rewite the positive elements of two arrays X(10) and Y(8) in array Z in a row. 
+Insertion in array Z should be completed in additional programm. 
