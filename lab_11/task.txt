@@ -1,0 +1,3 @@
+Symbols S1, ... , Sn are given. 
+It is known that in symbols S2, S3, ... , Sn are several '?'.
+Count the amount of spaces located before the second '?'.
