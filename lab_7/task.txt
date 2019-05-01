@@ -1,0 +1,7 @@
+Natural number is given n, b1,... bn, count:
+
+f(b0) +f(b1)+...+f(bn), where
+
+f(bi) = bi 2, if bi%3 = 0,
+f(bi )= bi , if bi%3 != 1,
+f(bi ) = [bi /3],in other cases.
