@@ -1,0 +1,3 @@
+String input. Choose every letter between Q(q) and Z(z) (lowercase should be converted to uppercase)
+and sorted in lphabetical order. 
+Only latin letters are allowed. 
