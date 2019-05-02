@@ -11,9 +11,9 @@
 using namespace std;
 
 
-void together(int s1, int s2, int X[s1], int Y[s2]);
+void together(int s1, int s2, int X[s1], int Y[s2]); //function to push to arrays in one
 
-void massive(int a, int M[]){
+void massive(int a, int M[]){ //function to fill the array
     for(int i = 0; i < a; i++){
         M[i] = rand()%50-25;
         cout << M[i] << "\t";
@@ -25,24 +25,24 @@ int main(){
     char name_1, name_2;
     
     
-    cout << "Введите имя 1-го массива(одна буква): ";
+    cout << "Enter the name of the 1st array(one letter): "; //filling 1st array
     cin >> name_1;
-    cout << "Введите количество элементов в массиве: ";
+    cout << "Enter the amount of elements: ";
     cin >> a;
     cout << name_1 << "(" << a << "):" << endl;
     int M1[a];
     massive(a, M1);
 
 
-    cout << endl << "Введите имя 2-го массива(одна буква): ";
+    cout << endl << "Enter the name of the 2nd array(one letter): "; //filling 2nd array
     cin >> name_2;
-    cout << "Введите количество элементов в массиве: ";
+    cout << "Enter the amount of elements: ";
     cin >> b;
     cout << name_2 << "(" << b << "):" << endl;
     int M2[b];
     massive(b, M2);
     
-    cout << "\n\nМассив Z з позитивними числами X та Y записаними поспіль:" << endl;
+    cout << "\n\nArray Z with elements of two arrays printed in row" << endl;
     together(a, b, M1, M2);
     
     return 0;
