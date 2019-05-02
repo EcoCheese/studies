@@ -15,7 +15,7 @@ int main() {
     int i = 0, a = 0;
     string st1;// = "SHiFROVkaOtSHPionA";
     
-    cout << "Введите строку:" << endl;
+    cout << "Enter string:" << endl;
     
     getline(cin, st1);
     
@@ -23,7 +23,7 @@ int main() {
     char ch[n], ch1[n];
     st1.copy(ch, n);
 
-    cout << "\nВывожу фразу заглавными буквами:" << endl;
+    cout << "\nPrinting string in uppercase:" << endl;
     
     for(i = 0; i < n; i++){
         if(islower(ch[i]))
@@ -31,9 +31,9 @@ int main() {
         cout << ch[i];
     }
     
-    cout << endl << "\nВыполняю поиск всех букв от Q до Z:" << endl;
+    cout << endl << "\nFinding letter from 'q'('Q') to 'z'('Z'):" << endl;
     
-    //на данном этапе мы вибираем подходящие значения букв и заносим их в дополнительный массив с размерностью а
+    //at this point we chose letters and adding them to an additional array
     for(i = 0; i < n; i++){
         if(ch[i] > 'Q' && ch[i] < 'Z'){
             cout << ch[i];
@@ -43,9 +43,8 @@ int main() {
     }
     
     string st2(ch1, a);
-//    cout << endl << st2 << endl;
     
-    cout << endl << "\nСортирую выражение по алфавиту:" << endl;
+    cout << endl << "\nAlphabetical order:" << endl;
     
     sort(st2.begin(), st2.end());
     
@@ -54,4 +53,5 @@ int main() {
     return 0;
 }
 
+//string example:
 //SHiFROVkaOtSHPionA
