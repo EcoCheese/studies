@@ -13,23 +13,23 @@ int main() {
     int N = 255;
     char z[N];
     int k = 0, i, a = 0;
-    cout << "Напишите предложение:\n";
+    cout << "Enter the sentence:" << endl;
     gets(z);
     
     
-    for (i = 0; i < strlen(z); i++){//определяем размер массива z
-        if (z[i] == '?' && k == 1)//условие выхода из массива
+    for (i = 0; i < strlen(z); i++){//getting the size of array
+        if (z[i] == '?' && k == 1)//leaving the cycle
             break;
-        else if (z[i] == '?')//подсчёт знаков вопроса
+        else if (z[i] == '?')//counting '?'
             k++;
-        else if (z[i] == ' ')//подсчёт пробелов
+        else if (z[i] == ' ')//counting ' '
             a++;
     }
     
-    cout << "\nКоличество пробелов до второго '?' = " << a;
+    cout << "\nAmount of spaces before 2nd '?' = " << a;
     
     return 0;
 }
 
-
+//example of the sentence
 //Спрашивают, что с ней? «Ничего». Что она делает ножом? «Ничего». Откуда кровь на ее юбках? «Рыбная». Она встает, отбрасывает нож и уходит, чтобы вымыться.
